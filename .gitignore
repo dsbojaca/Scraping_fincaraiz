@@ -1,0 +1,17 @@
+# Archivos del sistema
+__pycache__/
+*.py[cod]
+*.log
+*.swp
+.DS_Store
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Backup de Pandas
+*.pkl
+
+
+#archivo inicial de scraping
+flights_fincaraiz.py
