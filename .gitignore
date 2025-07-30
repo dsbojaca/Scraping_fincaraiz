@@ -15,3 +15,6 @@ __pycache__/
 
 #archivo inicial de scraping
 flights_fincaraiz.py
+
+#variables de entorno
+.env

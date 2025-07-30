@@ -1,7 +1,8 @@
 from utils.driver import get_driver
 from etl.extract import extract_properties
-from etl.load import load_to_csv
+from etl.load import load_to_csv, load_to_postgres
 from etl.transform import clean_data
+
 
 def main():
     driver = get_driver()
@@ -16,6 +17,7 @@ def main():
 
     data= clean_data(data_raw)
     load_to_csv(data)
+    load_to_postgres(data)
     driver.quit()
 
 if __name__ == "__main__":

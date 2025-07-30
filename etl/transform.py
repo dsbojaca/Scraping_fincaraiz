@@ -13,5 +13,7 @@ def clean_data(data):
     df['baños']= pd.to_numeric(df['baños'],errors='coerce')
     df['area']= pd.to_numeric(df['area'],errors='coerce')
 
+    df = df.drop(columns=["Tipología"])
+
     return df
 
