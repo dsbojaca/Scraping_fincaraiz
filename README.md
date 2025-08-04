@@ -1,3 +1,4 @@
+
 # 🏡 ETL de Propiedades con Apache Airflow + PostgreSQL – Scraping de FincaRaíz
 
 Este proyecto implementa un pipeline de **Extracción, Transformación y Carga (ETL)** de datos inmobiliarios desde el portal [FincaRaíz](https://www.fincaraiz.com.co), usando **Apache Airflow** como orquestador, **Selenium** como scraper y **PostgreSQL** como motor de base de datos.
@@ -155,4 +156,5 @@ Ampliar este pipeline como parte de una aplicación más robusta para análisis 
 
 Gracias por revisar este proyecto.  
 Es solo el comienzo de una idea que busca escalar hacia una solución real con impacto en el análisis de datos del sector economico .
+
 
